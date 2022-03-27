@@ -1,34 +1,37 @@
 {
   "expo": {
-    "name": "mpei-mobile",
+    "name": "MPEI Mobile",
     "slug": "mpei-mobile",
-    "version": "1.0.0",
+    "version": "0.0.1",
+    "description": "",
+    "githubUrl": "https://github.com/Alaladdin/mpei-mobile",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
+    "primaryColor": "#1f1b3a",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "cover",
+      "backgroundColor": "#1f1b3a"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "package": "com.agrabah.mpeiMobile",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#1f1b3a"
       }
     },
     "web": {
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/favicon.png",
+      "themeColor": "#1f1b3a"
     }
   }
 }
