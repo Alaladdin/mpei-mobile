@@ -6,23 +6,22 @@
 
 import { LinkingOptions } from '@react-navigation/native';
 import * as Linking from 'expo-linking';
-
 import { RootStackParamList } from '../types';
 
 const linking: LinkingOptions<RootStackParamList> = {
-  prefixes: [Linking.makeUrl('/')],
+  prefixes: [Linking.createURL('/')],
   config: {
     screens: {
       Root: {
         screens: {
-          TabOne: {
+          Actuality: {
             screens: {
-              TabOneScreen: 'one',
+              ActualityScreen: 'ActualityScreenOne',
             },
           },
-          TabTwo: {
+          Schedule: {
             screens: {
-              TabTwoScreen: 'two',
+              ScheduleScreen: 'ScheduleScreenOne',
             },
           },
         },

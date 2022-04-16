@@ -2,6 +2,9 @@ module.exports = {
   env: {
     es2021: true,
   },
+  globals: {
+    fetch: false,
+  },
   extends: [
     'plugin:react/recommended',
     'airbnb',
@@ -33,6 +36,12 @@ module.exports = {
         tsx: 'never',
       },
     ],
+    'object-curly-newline': ['error', {
+      ObjectExpression: { minProperties: 10, multiline: true, consistent: true },
+      ObjectPattern: { minProperties: 10, multiline: true, consistent: true },
+      ImportDeclaration: { minProperties: 10, multiline: true, consistent: true },
+      ExportDeclaration: { minProperties: 10, multiline: true, consistent: true },
+    }],
     // 'no-restricted-imports': [
     //   'error',
     //   {

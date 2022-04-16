@@ -6,12 +6,12 @@
     "description": "",
     "githubUrl": "https://github.com/Alaladdin/mpei-mobile",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./app/assets/images/icon.png",
     "scheme": "myapp",
     "primaryColor": "#1f1b3a",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./app/assets/images/splash.png",
       "resizeMode": "cover",
       "backgroundColor": "#1f1b3a"
     },
@@ -27,12 +27,12 @@
     "android": {
       "package": "com.agrabah.mpeiMobile",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./app/assets/images/adaptive-icon.png",
         "backgroundColor": "#1f1b3a"
       }
     },
     "web": {
-      "favicon": "./assets/images/favicon.png",
+      "favicon": "./app/assets/images/favicon.png",
       "themeColor": "#1f1b3a"
     }
   }
