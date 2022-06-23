@@ -17,8 +17,9 @@
       }
     },
     "prod": {
-      "releaseChannel": "release",
+      "releaseChannel": "default",
       "android": {
+        "autoIncrement": true,
         "buildType": "apk"
       }
     }
