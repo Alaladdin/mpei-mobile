@@ -42,6 +42,7 @@ module.exports = {
       ImportDeclaration: { minProperties: 10, multiline: true, consistent: true },
       ExportDeclaration: { minProperties: 10, multiline: true, consistent: true },
     }],
+    'no-underscore-dangle': ['error', { allow: ['_id'] }],
     // 'no-restricted-imports': [
     //   'error',
     //   {

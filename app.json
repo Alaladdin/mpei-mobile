@@ -3,11 +3,11 @@
     "name": "MPEI Mobile",
     "slug": "mpei-mobile",
     "version": "0.0.1",
-    "description": "",
+    "description": "MPEI mobile app",
     "githubUrl": "https://github.com/Alaladdin/mpei-mobile",
     "orientation": "portrait",
     "icon": "./app/assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "main",
     "primaryColor": "#1f1b3a",
     "userInterfaceStyle": "automatic",
     "splash": {
@@ -21,19 +21,13 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
       "package": "com.agrabah.mpeiMobile",
+      "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./app/assets/images/adaptive-icon.png",
+        "foregroundImage": "./app/assets/images/ic_launcher.png",
         "backgroundColor": "#1f1b3a"
       }
-    },
-    "web": {
-      "favicon": "./app/assets/images/favicon.png",
-      "themeColor": "#1f1b3a"
     }
   }
 }
